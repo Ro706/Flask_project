@@ -25,6 +25,5 @@ jobs:
           
       - name: Push Docker Image
         run: |
-          docker tag my-app:latest my-dockerhub-username/my-app:latest
-          docker push my-dockerhub-username/my-app:latest
-
+          docker tag my-app:latest rohitmandal404/my-app:latest
+          docker push rohitmandal404/my-app:latest
