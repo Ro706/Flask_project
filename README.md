@@ -69,7 +69,7 @@ docker-compose up --build
 ```
 Or
 
-## 5. run manually
+## 5. Run manually
 
 ```sh
 $ python3 -m pip install flask
