@@ -57,8 +57,7 @@ flask_todo_app/
 │   ├── styles.css
 │── templates/
 │   ├── index.html
-│── app.py
-│── requirements.txt
+│── main.py
 ```
 
 ---
@@ -68,7 +67,15 @@ Start the app with:
 ```sh
 docker-compose up --build
 ```
+Or
 
+## 5. run manually
+
+```sh
+$ python3 -m pip install flask
+$ python3 -m pip install flask_sqlalchemy
+$ python3 main.py 
+```
 ---
 
 ## Key Benefits
