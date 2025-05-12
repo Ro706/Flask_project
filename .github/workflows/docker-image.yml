@@ -27,3 +27,4 @@ jobs:
         run: |
           docker tag my-app:latest my-dockerhub-username/my-app:latest
           docker push my-dockerhub-username/my-app:latest
+
